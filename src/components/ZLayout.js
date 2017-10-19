@@ -19,8 +19,8 @@ class ZLayout extends Component {
         <Header style={{height: '80px', lineHeight: '80px', background: '#fff', position: 'fixed', zIndex: '100', width: '100%', boxShadow: '0 2px 2px -2px rgba(0,0,0,.15)'}}>
           <Row>
             <Col xs={2} sm={8} md={8} lg={8}></Col>
-            <Col xs={24} sm={8} md={8} lg={8} style={{textAlign: 'center'}}><font size='40'>ZOKO</font></Col>
-            <Col xs={24} sm={8} md={8} lg={8} style={{textAlign: 'right'}}><Button>Sign in</Button></Col>
+            <Col xs={16} sm={8} md={8} lg={8} style={{textAlign: 'center'}}><font size='40'>ZOKO</font></Col>
+            <Col xs={6} sm={8} md={8} lg={8} style={{textAlign: 'right'}}><Button>Sign in</Button></Col>
           </Row>
         </Header>
         <Layout style={{ background: '#fff'}} >
