@@ -18,16 +18,16 @@ class ZLayout extends Component {
       <Layout style={{ background: '#fff'}} >
         <Header style={{height: '80px', lineHeight: '80px', background: '#fff', position: 'fixed', zIndex: '100', width: '100%', boxShadow: '0 2px 2px -2px rgba(0,0,0,.15)'}}>
           <Row>
-            <Col span={8}></Col>
-            <Col span={8} style={{textAlign: 'center'}}><font size='40'>ZOKO</font></Col>
-            <Col span={8} style={{textAlign: 'right'}}><Button>Sign in</Button></Col>
+            <Col xs={2} sm={8} md={8} lg={8}></Col>
+            <Col xs={24} sm={8} md={8} lg={8} style={{textAlign: 'center'}}><font size='40'>ZOKO</font></Col>
+            <Col xs={24} sm={8} md={8} lg={8} style={{textAlign: 'right'}}><Button>Sign in</Button></Col>
           </Row>
         </Header>
         <Layout style={{ background: '#fff'}} >
           <div style={{ background: '#fff', minHeight: 280, marginTop: '100px'}}>
           <Content>
           <Row>
-            <Col span={12} style={{textAlign: 'center', verticalAlign: 'middle'}}>
+            <Col xs={24} sm={12} md={12} lg={12} style={{textAlign: 'center', verticalAlign: 'middle'}}>
             <div id='statementDiv' style={{minHeight: 280, minWidth:'100%', maxWidth: '100%', height: 'auto', padding: '50px'}}>
               <h2>{zokoStmtHeader} </h2>
               <h4>{zokoStmt}</h4>
@@ -35,7 +35,7 @@ class ZLayout extends Component {
             <Button type='primary' size='large'>Sign Up</Button>
             </div>
             </Col>
-            <Col span={12}>
+            <Col xs={24} sm={12} md={12} lg={12}>
               <img src={mainPic} alt='main page missing' style={{minWidth:'100%', maxWidth: '100%', height: 'auto'}}/></Col>
           </Row>
           </Content>
