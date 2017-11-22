@@ -2,11 +2,8 @@ import '../style/site_master.css';
 import "../../node_modules/video-react/dist/video-react.css"; // import css
 
 
-import MainPageCarousel from './MainPageCarousel';
-
 import React, { Component } from 'react';
 import { Layout, Row, Col, Button, Input, Carousel} from 'antd';
-import { Player } from 'video-react';
 
 import logo_small from '../images/logo_small.png';
 
