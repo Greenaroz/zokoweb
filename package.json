@@ -6,10 +6,11 @@
     "antd": "^2.13.6",
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-html5video": "^2.5.1",
-    "react-scripts": "1.0.14"
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-scripts": "1.0.14",
+    "redux": "^3.7.2",
+    "video-react": "^0.8.10"
   },
   "scripts": {
     "start": "react-scripts start",

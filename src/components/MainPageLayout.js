@@ -1,12 +1,12 @@
 import '../style/site_master.css';
+import "../../node_modules/video-react/dist/video-react.css"; // import css
 
 
 import MainPageCarousel from './MainPageCarousel';
 
 import React, { Component } from 'react';
 import { Layout, Row, Col, Button, Input, Carousel} from 'antd';
-import { DefaultPlayer as Video } from 'react-html5video';
-
+import { Player } from 'video-react';
 
 import logo_small from '../images/logo_small.png';
 
@@ -48,7 +48,7 @@ class MainPageLayout extends Component {
               <Col xs={24} sm={12} md={2} lg={2}><Button style={{width: '100%', height:'40px'}} type="primary">SIGN UP</Button></Col>
             </Row>
           </Content>
-          <Content style={{height: '400px', verticalAlign: 'middle', padding: '64px'}}>
+          <Content style={{height: '500px', verticalAlign: 'middle', padding: '64px'}}>
             <Row>
               <Col xs={24} sm={24} md={12} lg={12} style={{verticalAlign: 'middle'}}>
                 <Content>
@@ -61,16 +61,12 @@ class MainPageLayout extends Component {
                     <Col xs={24} sm={24} md={24} lg={24}><h4 className="zoko-stmt-small">{zokoFreeTrial}</h4></Col>
                 </Content>
               </Col>
-              <Col xs={24} sm={24} md={12} lg={12} style={{height:'100%'}}>
-
-              <Video autoPlay loop muted
-                controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
-                poster=""
-                onCanPlayThrough={() => {
-                // Do stuff
-              }}>
-              <source src="../video/zoko_site.mp4" type="video/webm" />
-            </Video>asdasdasd</Col>
+              <Col xs={24} sm={24} md={1} lg={1}></Col>
+              <Col xs={24} sm={24} md={12} lg={11}>
+                <video width="100%" height="100%" autoplay controls>
+                  <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" type="video/mp4" />
+                </video>
+              </Col>
             </Row>
           </Content>
           <Content>
