@@ -47,7 +47,7 @@ class MainPageLayout extends Component {
           </Content>
           <Content style={{height: '500px', verticalAlign: 'middle', padding: '64px'}}>
             <Row>
-              <Col xs={24} sm={24} md={12} lg={12} style={{verticalAlign: 'middle'}}>
+              <Col xs={24} sm={24} md={12} lg={12} style={{verticalAlign: 'middle', paddingTop: '128px'}}>
                 <Content>
                     <Col xs={24} sm={24} md={24} lg={24}><h1 className="zoko-header">{zokoStmtHeader}</h1></Col>
                     <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
@@ -60,18 +60,13 @@ class MainPageLayout extends Component {
               </Col>
               <Col xs={24} sm={24} md={1} lg={1}></Col>
               <Col xs={24} sm={24} md={12} lg={11}>
-                <video width="100%" height="100%" autoplay controls>
-                  <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" type="video/mp4" />
+                <video width="100%" height="600px" preload="true" autoPlay muted loop>
+                  <source src="https://s3.ap-south-1.amazonaws.com/elasticbeanstalk-ap-south-1-272461910273/zoko_marketing.mp4" type="video/mp4" />
                 </video>
               </Col>
             </Row>
           </Content>
-          <Content>
-            <Row>
-              <Col>&nbsp;</Col>
-              <Col><hr/></Col>
-            </Row>
-          </Content>
+
           <Content style={{height: '300px', verticalAlign: 'middle', padding: '64px'}}>
             <Col xs={24} sm={24} md={24} lg={24}><h1 className="zoko-header-center"><a id='features'></a>{zokoBroadCastStmt}</h1></Col>
             <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
@@ -91,12 +86,7 @@ class MainPageLayout extends Component {
             </Col>
             <Col xs={2} sm={2} md={2} lg={2}></Col>
           </Content>
-          <Content>
-            <Row>
-              <Col>&nbsp;</Col>
-              <Col><hr/></Col>
-            </Row>
-          </Content>
+
           <Content style={{height: '300px', verticalAlign: 'middle', padding: '64px'}}>
             <Col xs={24} sm={24} md={24} lg={24}><h1 className="zoko-header-center"><a id='blog'></a>{zokoBlogHeader}</h1></Col>
             <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
@@ -104,12 +94,7 @@ class MainPageLayout extends Component {
             <Col xs={6} sm={6} md={6} lg={6}></Col>
             <Col xs={24} sm={24} md={24} lg={24} style={{color: 'red'}}> ... Testimonial component build in progress ... </Col>
           </Content>
-          <Content>
-            <Row>
-              <Col>&nbsp;</Col>
-              <Col><hr/></Col>
-            </Row>
-          </Content>
+
           <Content style={{height: '300px', verticalAlign: 'middle', padding: '64px'}}>
             <Col xs={24} sm={24} md={24} lg={24}><h1 className="zoko-header-center"><a id='pricing'></a>{zokoPlansHeader}</h1></Col>
             <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
