@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import '~antd/dist/antd.css';
+
+
+.zoko-site-chat {
+	  max-width: 100%;
+	  margin: 0 auto;
+}
+
+h1.zoko-header {
+	font-family: 'Rubik';
+	font-size: 32px;
+	text-align: left;
+	color: #0f0f17;
+}
+
+
+@media screen and (min-width: 800px) {
+
+  .zoko-site-chat {
+    max-width: 90%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  nav, section {
+    float: left;
+  }
+
+  nav {
+    width: 20.83333%;
+    margin-right: 1.041667%;
+  }
+
+  section {
+    width: 78.125%;
+  }
+
+}

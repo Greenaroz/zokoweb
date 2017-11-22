@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import '~antd/dist/antd.css';
+
+
+.zoko-site-header {
+	height: 40px;
+	line-height: 40px;
+	padding-left: 64px;
+	padding-right: 64px;
+	padding-top: 16px;
+	padding-bottom: 128px;
+	font-family: 'Rubik';
+	font-size: 14px;
+	text-align: center;
+	color: #5f5f69;
+}
+
+a:link, a:visited {
+	color: #5f5f69;
+}
+
+.zoko-site-logo-small {
+	width: 136.2px;
+	height: 40px;
+}
+
+.zoko-site-chat {
+	  max-width: 100%;
+	  margin: 0 auto;
+}
+
+h1.zoko-header {
+	font-family: 'Rubik';
+	font-size: 32px;
+	text-align: left;
+	color: #0f0f17;
+}
+
+h1.zoko-header-center {
+	font-family: 'Rubik';
+	font-size: 32px;
+	text-align: center;
+	color: #0f0f17;
+}
+
+h3.zoko-stmt {
+	font-family: 'Rubik';
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.78;
+	text-align: left;
+	color: #0f0f17;
+}
+
+h3.zoko-stmt-center {
+	font-family: 'Rubik';
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.78;
+	text-align: center;
+	color: #0f0f17;
+}
+
+h4.zoko-stmt-small {
+	font-family: 'Rubik';
+	font-size: 14px;
+	font-weight: 300;
+	text-align: left;
+	padding-top: 10px;
+	color: #373741;
+}
+
+hr {
+	height: 2px;
+	border: solid 1px #e6e6e8;
+}
+
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+
+
+
+@media screen and (min-width: 800px) {
+
+  .zoko-site-chat {
+    max-width: 90%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  nav, section {
+    float: left;
+  }
+
+  nav {
+    width: 20.83333%;
+    margin-right: 1.041667%;
+  }
+
+  section {
+    width: 78.125%;
+  }
+
+}
