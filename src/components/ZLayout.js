@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Layout, Row, Col, Button} from 'antd';
+import { Layout, Row, Col, Button, Input} from 'antd';
 import '../style/ZLayout.css'
 
 import mainPic from '../images/mainPage.png';

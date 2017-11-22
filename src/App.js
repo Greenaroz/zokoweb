@@ -1,4 +1,4 @@
-import ZLayout from './components/ZLayout';
+import MainPageLayout from './components/MainPageLayout';
 import React, { Component } from 'react';
 
 
@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div>
-      <ZLayout/>
+      <MainPageLayout/>
       </div>
     );
   }
