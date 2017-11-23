@@ -10,7 +10,7 @@ import logo_small from '../images/logo_small.png';
 
 import carousel_img1 from '../images/Carousel1.jpg';
 import carousel_img2 from '../images/Carousel2.jpg';
-import carousel_img3 from '../images/Carousel3.jpg';
+import carousel_img3 from '../images/PromotePage.jpg';
 import carousel_img4 from '../images/Carousel4.jpg';
 
 
@@ -18,7 +18,7 @@ const { Header, Footer, Content } = Layout;
 
 const zokoStmtHeader = "Sell online via Messenger"
 const zokoStmt = "ZOKO gives your customers the power to discover and buy your products directly through Messenger."
-const zokoFreeTrial = "30 day free trail. No credit card required. Super quick sign up."
+const zokoFreeTrial = "30 day free trial. No credit card required. Super quick sign up."
 const zokoBroadCastStmt = "Broadcast - Message all your customers within 1 click"
 const zokoBroadCastNoLimit = "No limit to the number of customers! Let all your customers know when there are new products or collections."
 const zokoBlogHeader = "See why more than 20,000 sellers use Zoko";
@@ -60,8 +60,8 @@ class MainPageLayout extends Component {
               </Col>
               <Col xs={24} sm={24} md={1} lg={1}></Col>
               <Col xs={24} sm={24} md={12} lg={11}>
-                <video width="100%" height="600px" preload="true" autoPlay muted loop>
-                  <source src="https://s3.ap-south-1.amazonaws.com/elasticbeanstalk-ap-south-1-272461910273/zoko_marketing.mp4" type="video/mp4" />
+                <video width="100%" height="400px" preload="true" autoPlay muted loop>
+                  <source src="https://s3.ap-south-1.amazonaws.com/elasticbeanstalk-ap-south-1-272461910273/zoko_site_convo.mp4" type="video/mp4" />
                 </video>
               </Col>
             </Row>
