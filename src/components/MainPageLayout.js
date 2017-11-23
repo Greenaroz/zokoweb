@@ -76,7 +76,7 @@ class MainPageLayout extends Component {
           </Content>
           <Content style={{height: '700px'}}>
             <Col xs={2} sm={2} md={2} lg={2}></Col>
-            <Col xs={20} sm={20} md={20} lg={20} style={{boxShadow: '1px 1px 1px 1px rgba(0, 0, 0, .15)'}}>
+            <Col xs={20} sm={20} md={20} lg={20} style={{height: '700px', boxShadow: '1px 1px 1px 1px rgba(0, 0, 0, .15)'}}>
               <Carousel autoplay effect="fade">
                 <div style={{maxHeight: '600px'}}><img src={carousel_img1} alt='main page missing' style={{minWidth:'100%', maxWidth: '100%', height: 'auto'}} /></div>
                 <div style={{maxHeight: '600px'}}><img src={carousel_img2} alt='main page missing' style={{minWidth:'100%', maxWidth: '100%', height: 'auto'}} /></div>
