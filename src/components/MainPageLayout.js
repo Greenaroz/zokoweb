@@ -45,7 +45,7 @@ class MainPageLayout extends Component {
               <Col xs={24} sm={12} md={2} lg={2}><Button style={{width: '100%', height:'40px'}} type="primary">SIGN UP</Button></Col>
             </Row>
           </Content>
-          <Content style={{height: '500px', verticalAlign: 'middle', padding: '64px'}}>
+          <Content style={{height: '600px', verticalAlign: 'middle', padding: '64px'}}>
             <Row>
               <Col xs={24} sm={24} md={12} lg={12} style={{verticalAlign: 'middle', paddingTop: '128px'}}>
                 <Content>
@@ -60,8 +60,8 @@ class MainPageLayout extends Component {
               </Col>
               <Col xs={24} sm={24} md={1} lg={1}></Col>
               <Col xs={24} sm={24} md={12} lg={11}>
-                <video width="100%" height="400px" preload="true" autoPlay muted loop>
-                  <source src="https://s3.ap-south-1.amazonaws.com/elasticbeanstalk-ap-south-1-272461910273/zoko_site_convo.mp4" type="video/mp4" />
+                <video width="100%" height="500px" autoPlay muted loop>
+                  <source src="https://s3.ap-south-1.amazonaws.com/elasticbeanstalk-ap-south-1-272461910273/zoko_sitecrop.mp4" type="video/mp4" />
                 </video>
               </Col>
             </Row>
