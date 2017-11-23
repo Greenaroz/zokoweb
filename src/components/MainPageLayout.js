@@ -1,5 +1,6 @@
 import '../style/site_master.css';
 import "../../node_modules/video-react/dist/video-react.css"; // import css
+import FeaturesCarousel from './FeaturesCarousel';
 
 
 import React, { Component } from 'react';
@@ -67,25 +68,7 @@ class MainPageLayout extends Component {
             </Row>
           </Content>
 
-          <Content style={{height: '300px', verticalAlign: 'middle', padding: '64px'}}>
-            <Col xs={24} sm={24} md={24} lg={24}><h1 className="zoko-header-center"><a id='features'></a>{zokoBroadCastStmt}</h1></Col>
-            <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
-            <Col offset={6} xs={12} sm={12} md={12} lg={12}><h3 className="zoko-stmt-center">{zokoBroadCastNoLimit}</h3></Col>
-            <Col xs={6} sm={6} md={6} lg={6}></Col>
-            <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
-          </Content>
-          <Content style={{height: '700px'}}>
-            <Col xs={2} sm={2} md={2} lg={2}></Col>
-            <Col xs={20} sm={20} md={20} lg={20} style={{height: '700px', boxShadow: '1px 1px 1px 1px rgba(0, 0, 0, .15)'}}>
-              <Carousel autoplay effect="fade">
-                <div style={{maxHeight: '600px'}}><img src={carousel_img1} alt='main page missing' style={{minWidth:'100%', maxWidth: '100%', height: 'auto'}} /></div>
-                <div style={{maxHeight: '600px'}}><img src={carousel_img2} alt='main page missing' style={{minWidth:'100%', maxWidth: '100%', height: 'auto'}} /></div>
-                <div style={{maxHeight: '600px'}}><img src={carousel_img3} alt='main page missing' style={{minWidth:'100%', maxWidth: '100%', height: 'auto'}} /></div>
-                <div style={{maxHeight: '600px'}}><img src={carousel_img4} alt='main page missing' style={{minWidth:'100%', maxWidth: '100%', height: 'auto'}} /></div>
-              </Carousel>
-            </Col>
-            <Col xs={2} sm={2} md={2} lg={2}></Col>
-          </Content>
+          <FeaturesCarousel />
 
           <Content style={{height: '300px', verticalAlign: 'middle', padding: '64px'}}>
             <Col xs={24} sm={24} md={24} lg={24}><h1 className="zoko-header-center"><a id='blog'></a>{zokoBlogHeader}</h1></Col>
