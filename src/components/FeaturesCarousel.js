@@ -37,6 +37,7 @@ class FeaturesCarousel extends Component {
         slidesToScroll: 1,
         autoplay : true,
         effect : 'fade',
+        pauseOnHover : false,
 
         afterChange: function (currentSlide) {
           this.setState({activeSlide: currentSlide});
