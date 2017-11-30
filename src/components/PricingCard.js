@@ -22,9 +22,9 @@ class PricingCard extends Component {
 
     return (
       <div>
-      <Content>
+      <Content style={{paddingTop: '64px'}}>
         <Col xs={6} sm={6} md={6} lg={6}></Col>
-        <Col xs={12} sm={12} md={12} lg={12} style={{textAlign:'center'}}>
+        <Col xs={12} sm={12} md={12} lg={12}>
         <div id="pricing-table" className="clear">
           <div className="plan">
               <h3>ENTERPRISE<span>₹9,999</span></h3>

@@ -2,10 +2,11 @@ import '../style/site_master.css';
 import "../../node_modules/video-react/dist/video-react.css"; // import css
 import FeaturesCarousel from './FeaturesCarousel';
 import PricingCard from './PricingCard';
+import TestimonialSection from './TestimonialSection';
 
 
 import React, { Component } from 'react';
-import { Layout, Row, Col, Button, Input, Carousel} from 'antd';
+import { Layout, Row, Col, Button, Input, Carousel, Icon} from 'antd';
 
 import logo_small from '../images/logo_small.png';
 
@@ -75,24 +76,38 @@ class MainPageLayout extends Component {
             </Col>
           </Content>
 
-          <Content style={{height: '900px'}}>
-            <Col xs={2} sm={2} md={2} lg={2}></Col>
-            <Col xs={24} sm={24} md={24} lg={24}><h1 className="zoko-header-center"><a id='pricing'></a>{zokoPlansHeader}</h1></Col>
-            <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
-            <Col offset={6} xs={12} sm={12} md={12} lg={12}><h3 className="zoko-stmt-center">{zokoPlansStmt}</h3></Col>
-            <Col xs={6} sm={6} md={6} lg={6}></Col>
-            <Col xs={8} sm={8} md={24} lg={24} style={{}}>
-                <PricingCard />
-            </Col>
-          </Content>
-
-          <Content style={{height: '300px', verticalAlign: 'middle', padding: '64px'}}>
+          <Content style={{height: '900px', marginTop: '64px'}}>
             <Col xs={24} sm={24} md={24} lg={24}><h1 className="zoko-header-center"><a id='blog'></a>{zokoBlogHeader}</h1></Col>
             <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
             <Col offset={6} xs={12} sm={12} md={12} lg={12}><h3 className="zoko-stmt-center">{zokoBlogStmt}</h3></Col>
             <Col xs={6} sm={6} md={6} lg={6}></Col>
-            <Col xs={24} sm={24} md={24} lg={24} style={{color: 'red'}}> ... Testimonial component build in progress ... </Col>
+            <Col xs={8} sm={8} md={24} lg={24}>
+                <TestimonialSection />
+            </Col>
           </Content>
+
+          <Content style={{height: '900px', marginTop: '64px'}}>
+            <Col xs={24} sm={24} md={24} lg={24}><h1 className="zoko-header-center"><a id='pricing'></a>{zokoPlansHeader}</h1></Col>
+            <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
+            <Col offset={6} xs={12} sm={12} md={12} lg={12}><h3 className="zoko-stmt-center">{zokoPlansStmt}</h3></Col>
+            <Col xs={6} sm={6} md={6} lg={6}></Col>
+            <Col xs={24} sm={24} md={24} lg={24}>
+                <PricingCard />
+            </Col>
+          </Content>
+
+          <Content className="zoko-site-footer">
+              <Col xs={24} sm={24} md={4} lg={4} style={{textAlign:'left'}}>
+                <img className="zoko-site-logo-small" src={logo_small} alt='main page missing'/></Col>
+              <Col xs={24} sm={24} md={4} lg={4}>&nbsp;</Col>
+              <Col xs={24} sm={6} md={2} lg={2}><a href="#">Terms</a></Col>
+              <Col xs={24} sm={6} md={2} lg={2}><a href="#">Privacy</a></Col>
+              <Col xs={24} sm={6} md={2} lg={2}><Icon type="mail" style={{ color: '#08c' }} />&nbsp;<a href="mailto:team@zoko.io">Contact Us</a></Col>
+              <Col xs={24} sm={6} md={2} lg={2}><a href="#blog">English</a></Col>
+              <Col xs={24} sm={24} md={4} lg={4}>&nbsp;</Col>
+              <Col xs={24} sm={24} md={4} lg={4} style={{textAlign: 'right'}}>Social Media Section</Col>
+          </Content>
+
       </div>
     );
   }
