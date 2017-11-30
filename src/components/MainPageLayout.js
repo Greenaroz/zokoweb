@@ -54,7 +54,9 @@ class MainPageLayout extends Component {
                 <Content>
                     <Col xs={24} sm={24} md={24} lg={24}><h1 className="zoko-header">{zokoStmtHeader}</h1></Col>
                     <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
-                    <Col xs={24} sm={24} md={24} lg={24}><h3 className="zoko-stmt">{zokoStmt}</h3></Col>
+                    <Col xs={1} sm={0} md={0} lg={0}></Col>
+                    <Col xs={22} sm={24} md={24} lg={24}><h3 className="zoko-stmt">{zokoStmt}</h3></Col>
+                    <Col xs={1} sm={0} md={0} lg={0}></Col>
                     <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
                     <Col xs={12} sm={12} md={15} lg={15} className='zoko-free-input'><Input style={{minHeight:'100%'}} placeholder="Enter your email"/></Col>
                     <Col xs={1} sm={1} md={1} lg={1} className='zoko-free-input'></Col>
