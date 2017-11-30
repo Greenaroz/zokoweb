@@ -20,7 +20,7 @@ class TestimonialSection extends Component {
   render() {
     return (
       <div>
-        <Content style={{paddingTop: '64px'}}>
+        <Content>
           <Col xs={0} sm={2} md={2} lg={2} ></Col>
           <Col xs={24} sm={6} md={6} lg={6}>
             <Card bodyStyle={{ padding: '20px' }}>
@@ -58,6 +58,7 @@ class TestimonialSection extends Component {
             </Card>
           </Col>
           <Col xs={0} sm={2} md={2} lg={2} ></Col>
+          <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
         </Content>
       </div>
     );

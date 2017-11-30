@@ -81,16 +81,19 @@ class MainPageLayout extends Component {
             <Col xs={1} sm={3} md={6} lg={6}></Col>
             <Col xs={22} sm={18} md={12} lg={12}><h3 className="zoko-stmt-center">{zokoBlogStmt}</h3></Col>
             <Col xs={1} sm={3} md={6} lg={6}></Col>
+            <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
             <Col xs={24} sm={24} md={24} lg={24}>
                 <TestimonialSection />
             </Col>
           </Content>
           <div className='zoko-content-split'></div>
-          <Content style={{height: '900px', marginTop: '64px'}}><a id='pricing'></a>
+          <Content className="zoko-main-container"><a id='pricing'></a>
             <Col xs={24} sm={24} md={24} lg={24}><h1 className="zoko-header-center">{zokoPlansHeader}</h1></Col>
             <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
-            <Col offset={6} xs={12} sm={12} md={12} lg={12}><h3 className="zoko-stmt-center">{zokoPlansStmt}</h3></Col>
-            <Col xs={6} sm={6} md={6} lg={6}></Col>
+            <Col xs={1} sm={3} md={6} lg={6}></Col>
+            <Col xs={22} sm={18} md={12} lg={12}><h3 className="zoko-stmt-center">{zokoPlansStmt}</h3></Col>
+            <Col xs={1} sm={3} md={6} lg={6}></Col>
+            <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
             <Col xs={24} sm={24} md={24} lg={24}>
                 <PricingCard />
             </Col>
