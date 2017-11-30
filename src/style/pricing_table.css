@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
 #pricing-table {
-	margin: 100px auto;
+  margin-top: 128px;
 	text-align: center;
 }
 
@@ -16,7 +16,8 @@
 	border: 1px solid #eee;
 	color: #5f5f69;
 	padding: 20px;
-	width: 320px; /* plan width = 180 + 20 + 20 + 1 + 1 = 222px */
+  width: 30%;
+  min-width: 240px;
 	float: left;
 	position: relative;
 }
@@ -32,26 +33,14 @@
 
 #pricing-table h3 {
 	font-size: 20px;
-	font-weight: normal;
+	font-weight: bold;
 	padding: 20px;
 	margin: -20px -20px 50px -20px;
-	background-color: #eee;
-	background-image: -moz-linear-gradient(#fff,#eee);
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
-	background-image: -webkit-linear-gradient(#fff, #eee);
-	background-image: -o-linear-gradient(#fff, #eee);
-	background-image: -ms-linear-gradient(#fff, #eee);
-	background-image: linear-gradient(#fff, #eee);
+	background-color: #fff;
 }
 
 #pricing-table #most-popular h3 {
-	background-color: #ddd;
-	background-image: -moz-linear-gradient(#eee,#ddd);
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ddd));
-	background-image: -webkit-linear-gradient(#eee, #ddd);
-	background-image: -o-linear-gradient(#eee, #ddd);
-	background-image: -ms-linear-gradient(#eee, #ddd);
-	background-image: linear-gradient(#eee, #ddd);
+	background-color: #fff;
 	margin-top: -30px;
 	padding-top: 30px;
 	-moz-border-radius: 5px 5px 0 0;
@@ -73,19 +62,16 @@
 
 #pricing-table h3 span {
 	display: block;
-	font: 25px/100px 'Rubik', Georgia, Serif;
-	color: #777;
+	font: 25px/110px 'Rubik', Georgia, Serif;
+	color: #5f5f69;
 	background: #fff;
 	border: 5px solid #fff;
-	height: 100px;
-	width: 100px;
+	height: 120px;
+	width: 120px;
 	margin: 10px auto -65px;
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-	border-radius: 20px;
-	-moz-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
-	-webkit-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
-	box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+	-moz-border-radius: 120px;
+	-webkit-border-radius: 120px;
+	border-radius: 120px;
 }
 
 /* --------------- */

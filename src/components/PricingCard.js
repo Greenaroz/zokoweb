@@ -1,7 +1,9 @@
 import '../style/pricing_table.css';
 
 import React, { Component } from 'react';
-import { Button }  from 'antd';
+import { Button, Col, Row, Layout }  from 'antd';
+
+const { Content } = Layout;
 
 
 
@@ -20,9 +22,12 @@ class PricingCard extends Component {
 
     return (
       <div>
+      <Content>
+        <Col xs={6} sm={6} md={6} lg={6}></Col>
+        <Col xs={12} sm={12} md={12} lg={12} style={{textAlign:'center'}}>
         <div id="pricing-table" className="clear">
           <div className="plan">
-              <h3>ENTERPRISE<span>$59</span></h3>
+              <h3>ENTERPRISE<span>₹9,999</span></h3>
               <ul>
                 <li><b><i>All features of PRO plan included</i></b></li>
                 <li>Zero Fee on Sales</li>
@@ -30,31 +35,45 @@ class PricingCard extends Component {
                 <li>Autopilot Ad System</li>
                 <li>Unlimited Stores</li>
                 <li>Unlimited Agents</li>
-                <li></li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
                 <Button style={{width: '60%', height:'40px'}} type="primary">SIGN UP</Button>
               </ul>
           </div>
           <div className="plan" id="most-popular">
-              <h3>PROFESSIONAL<span>$29</span></h3>
-              <a className="signup" href="">Sign up</a>
+              <h3>PROFESSIONAL<span>₹4,999</span></h3>
               <ul>
-                <li><b>Channels</b> Disk Space</li>
-                <li><b>COD Payments - Free</b> Monthly Bandwidth</li>
-                <li><b>10</b> Email Accounts</li>
-                <li><b>Unlimited</b> subdomains</li>
+                <li>COD Payments - Free</li>
+                <li>Credit/Debit Card Payments - 6% Fee</li>
+                <li>PayTM - 6% Fee</li>
+                <li>1 - Click Broadcast</li>
+                <li>Auto Responder Bot</li>
+                <li>Auto Updater Bot</li>
+                <li>Bring Back Bot</li>
+                <li>3 Stores</li>
+                <li>9 Sales Agents</li>
+                <Button style={{width: '60%', height:'40px'}} type="primary">SIGN UP</Button>
               </ul>
           </div>
           <div className="plan">
-              <h3>SOLO<span>$17</span></h3>
-      		<a className="signup" href="">Sign up</a>
+              <h3>SOLO<span>₹999</span></h3>
               <ul>
-                <li><b>3GB</b> Disk Space</li>
-                <li><b>25GB</b> Monthly Bandwidth</li>
-                <li><b>5</b> Email Accounts</li>
-                <li><b>Unlimited</b> subdomains</li>
+                <li>Channels</li>
+                <li>9% fee - All sales</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <Button style={{width: '60%', height:'40px'}} type="primary">SIGN UP</Button>
               </ul>
           </div>
-        </div>
+        </div></Col>
+        <Col xs={6} sm={6} md={6} lg={6}></Col>
+        </Content>
       </div>
     );
   }
