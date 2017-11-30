@@ -49,22 +49,22 @@ class FeaturesCarousel extends Component {
 
     return (
       <div>
-          <Content style={{verticalAlign: 'middle', padding: '64px'}}>
+          <Content>
             <Col xs={24} sm={24} md={24} lg={24}><h1 className="zoko-header-center"><a id='features'></a>{featureHeaders[activeMsg]}</h1></Col>
             <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
-            <Col xs={1} sm={1} md={6} lg={6}></Col>
-            <Col xs={22} sm={22} md={12} lg={12}><h3 className="zoko-stmt-center">{featureStmt[activeMsg]}</h3></Col>
-            <Col xs={1} sm={1} md={6} lg={6}></Col>
+            <Col xs={1} sm={3} md={6} lg={6}></Col>
+            <Col xs={22} sm={18} md={12} lg={12}><h3 className="zoko-stmt-center">{featureStmt[activeMsg]}</h3></Col>
+            <Col xs={1} sm={3} md={6} lg={6}></Col>
             <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
           </Content>
           <Content>
             <Col xs={2} sm={2} md={2} lg={2}></Col>
             <Col xs={20} sm={20} md={20} lg={20} style={{boxShadow: '1px 1px 1px 1px rgba(0, 0, 0, .15)'}}>
               <Carousel {...props}>
-                <div style={{maxHeight: '600px'}}><img src={carousel_img1} alt='main page missing' style={{minWidth:'100%', maxWidth: '100%', height: 'auto'}} /></div>
-                <div style={{maxHeight: '600px'}}><img src={carousel_img2} alt='main page missing' style={{minWidth:'100%', maxWidth: '100%', height: 'auto'}} /></div>
-                <div style={{maxHeight: '600px'}}><img src={carousel_img3} alt='main page missing' style={{minWidth:'100%', maxWidth: '100%', height: 'auto'}} /></div>
-                <div style={{maxHeight: '600px'}}><img src={carousel_img4} alt='main page missing' style={{minWidth:'100%', maxWidth: '100%', height: 'auto'}} /></div>
+                <div style={{maxHeight: '600px'}}><img src={carousel_img1} alt='pic missing' style={{minWidth:'100%', maxWidth: '100%', height: 'auto'}} /></div>
+                <div style={{maxHeight: '600px'}}><img src={carousel_img2} alt='pic missing' style={{minWidth:'100%', maxWidth: '100%', height: 'auto'}} /></div>
+                <div style={{maxHeight: '600px'}}><img src={carousel_img3} alt='pic missing' style={{minWidth:'100%', maxWidth: '100%', height: 'auto'}} /></div>
+                <div style={{maxHeight: '600px'}}><img src={carousel_img4} alt='pic missing' style={{minWidth:'100%', maxWidth: '100%', height: 'auto'}} /></div>
               </Carousel>
             </Col>
             <Col xs={2} sm={2} md={2} lg={2}></Col>

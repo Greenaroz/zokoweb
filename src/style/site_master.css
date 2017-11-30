@@ -3,31 +3,80 @@
 
 
 .zoko-site-header {
-	height: 40px;
-	line-height: 40px;
-	padding-left: 64px;
-	padding-right: 64px;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 32px;
+	padding-right: 32px;
 	padding-top: 16px;
-	padding-bottom: 32px;
 	font-family: 'Rubik';
 	font-size: 14px;
 	text-align: center;
 	color: #5f5f69;
+}
+
+@media (min-width: 768px)
+{
+	.zoko-site-header {
+		height: 40px;
+		line-height: 40px;
+		padding-left: 64px;
+		padding-right: 64px;
+		padding-top: 16px;
+		padding-bottom: 32px;
+	}
+}
+
+.zoko-content-split {
+	overflow: overlay;
+	height: 10px;
+	width: 100%;
+	border-bottom: 1px solid #e6e6e8;
 }
 
 .zoko-site-footer {
-	height: 40px;
-	line-height: 40px;
-	padding-left: 64px;
-	padding-right: 64px;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 32px;
+	padding-right: 32px;
 	padding-top: 16px;
-	padding-bottom: 32px;
 	font-family: 'Rubik';
 	font-size: 14px;
 	text-align: center;
 	color: #5f5f69;
 }
 
+@media (min-width: 768px)
+{
+	.zoko-site-footer {
+		height: 40px;
+		line-height: 40px;
+		padding-left: 64px;
+		padding-right: 64px;
+		padding-top: 16px;
+		padding-bottom: 32px;
+	}
+}
+
+
+.zoko-main-container {
+	padding: 16px;
+}
+
+@media (min-width: 768px) {
+	.zoko-main-container {
+		padding: 64px;
+	}
+}
+
+.zoko-main-content {
+	padding-top: 32px;
+}
+
+@media (min-width: 768px) {
+	.zoko-main-content {
+		padding-top: 64px;
+	}
+}
 
 a:link, a:visited {
 	color: #5f5f69;
@@ -44,10 +93,16 @@ a:link, a:visited {
 }
 
 h1.zoko-header {
-	font-family: 'Rubik';
-	font-size: 32px;
-	text-align: left;
-	color: #5f5f69;
+font-family: 'Rubik';
+font-size: 32px;
+text-align: center;
+color: #5f5f69;
+}
+
+@media (min-width: 768px){
+	h1.zoko-header {
+		text-align: left;
+	}
 }
 
 h1.zoko-header-center {
@@ -62,8 +117,14 @@ h3.zoko-stmt {
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 1.78;
-	text-align: left;
+	text-align: center;
 	color: #5f5f69;
+}
+
+@media (min-width: 768px){
+	h3.zoko-stmt {
+		text-align: left;
+	}
 }
 
 h3.zoko-stmt-center {
@@ -79,47 +140,35 @@ h4.zoko-stmt-small {
 	font-family: 'Rubik';
 	font-size: 14px;
 	font-weight: 300;
-	text-align: left;
+	font-style: italic;
+	text-align: center;
 	padding-top: 10px;
 	color: #5f5f69;
 }
 
-hr {
-	height: 2px;
-	border: solid 1px #e6e6e8;
+@media (min-width: 768px) {
+	h4.zoko-stmt-small {
+	text-align: left;
+	font-style: normal;
+	}
 }
+
+.zoko-free-input {
+	height:40px;
+}
+
+@media (min-width: 768px)
+{
+	.zoko-free-input {
+		height:56px;
+	}
+}
+
+
 
 
 .ant-carousel .slick-slide {
   text-align: center;
   background: #364d79;
   overflow: hidden;
-}
-
-
-
-
-@media screen and (min-width: 800px) {
-
-  .zoko-site-chat {
-    max-width: 90%;
-  }
-
-  header {
-    width: 100%;
-  }
-
-  nav, section {
-    float: left;
-  }
-
-  nav {
-    width: 20.83333%;
-    margin-right: 1.041667%;
-  }
-
-  section {
-    width: 78.125%;
-  }
-
 }
