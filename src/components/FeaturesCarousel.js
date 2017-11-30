@@ -52,9 +52,9 @@ class FeaturesCarousel extends Component {
           <Content style={{verticalAlign: 'middle', padding: '64px'}}>
             <Col xs={24} sm={24} md={24} lg={24}><h1 className="zoko-header-center"><a id='features'></a>{featureHeaders[activeMsg]}</h1></Col>
             <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
-            <Col xs={6} sm={6} md={6} lg={6}></Col>
-            <Col xs={12} sm={12} md={12} lg={12}><h3 className="zoko-stmt-center">{featureStmt[activeMsg]}</h3></Col>
-            <Col xs={6} sm={6} md={6} lg={6}></Col>
+            <Col xs={1} sm={1} md={6} lg={6}></Col>
+            <Col xs={22} sm={22} md={12} lg={12}><h3 className="zoko-stmt-center">{featureStmt[activeMsg]}</h3></Col>
+            <Col xs={1} sm={1} md={6} lg={6}></Col>
             <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
           </Content>
           <Content>

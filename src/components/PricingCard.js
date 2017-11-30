@@ -23,8 +23,8 @@ class PricingCard extends Component {
     return (
       <div>
       <Content style={{paddingTop: '64px'}}>
-        <Col xs={6} sm={6} md={6} lg={6}></Col>
-        <Col xs={12} sm={12} md={12} lg={12}>
+        <Col xs={6} sm={2} md={3} lg={3}></Col>
+        <Col xs={12} sm={20} md={18} lg={18}>
         <div id="pricing-table" className="clear">
           <div className="plan">
               <h3>ENTERPRISE<span>₹9,999</span></h3>
@@ -72,7 +72,7 @@ class PricingCard extends Component {
               </ul>
           </div>
         </div></Col>
-        <Col xs={6} sm={6} md={6} lg={6}></Col>
+        <Col xs={6} sm={2} md={3} lg={3}></Col>
         </Content>
       </div>
     );

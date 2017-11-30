@@ -24,5 +24,6 @@
   padding-top: 10px;
   color: #999;
   height: 150px;
+  overflow: hidden;
   text-align: justify;
 }

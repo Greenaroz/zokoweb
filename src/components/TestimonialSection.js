@@ -21,8 +21,8 @@ class TestimonialSection extends Component {
     return (
       <div>
         <Content style={{paddingTop: '64px'}}>
-          <Col xs={0} sm={0} md={2} lg={2} ></Col>
-          <Col xs={24} sm={24} md={6} lg={6}>
+          <Col xs={0} sm={2} md={2} lg={2} ></Col>
+          <Col xs={24} sm={6} md={6} lg={6}>
             <Card bodyStyle={{ padding: '20px' }}>
               <div className="custom-image">
                 <img alt="example" width="100%" src={tmPic1} />
@@ -33,8 +33,8 @@ class TestimonialSection extends Component {
               </div>
             </Card>
           </Col>
-          <Col xs={0} sm={0} md={1} lg={1} ></Col>
-          <Col xs={24} sm={24} md={6} lg={6}>
+          <Col xs={0} sm={1} md={1} lg={1} ></Col>
+          <Col xs={24} sm={6} md={6} lg={6}>
             <Card bodyStyle={{ padding: '20px' }}>
               <div className="custom-image">
                 <img alt="example" width="100%" src={tmPic2} />
@@ -45,8 +45,8 @@ class TestimonialSection extends Component {
               </div>
             </Card>
           </Col>
-          <Col xs={0} sm={0} md={1} lg={1} ></Col>
-          <Col xs={24} sm={24} md={6} lg={6}>
+          <Col xs={0} sm={1} md={1} lg={1} ></Col>
+          <Col xs={24} sm={6} md={6} lg={6}>
             <Card bodyStyle={{ padding: '20px' }}>
               <div className="custom-image">
                 <img alt="example" width="100%" src={tmPic1} />
@@ -57,7 +57,7 @@ class TestimonialSection extends Component {
               </div>
             </Card>
           </Col>
-          <Col xs={0} sm={0} md={2} lg={2} ></Col>
+          <Col xs={0} sm={2} md={2} lg={2} ></Col>
         </Content>
       </div>
     );

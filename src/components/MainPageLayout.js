@@ -71,9 +71,7 @@ class MainPageLayout extends Component {
           </Content>
 
           <Content style={{height: '900px'}}>
-            <Col xs={8} sm={8} md={24} lg={24} style={{}}>
               <FeaturesCarousel />
-            </Col>
           </Content>
 
           <Content style={{height: '900px', marginTop: '64px'}}>
@@ -81,7 +79,7 @@ class MainPageLayout extends Component {
             <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
             <Col offset={6} xs={12} sm={12} md={12} lg={12}><h3 className="zoko-stmt-center">{zokoBlogStmt}</h3></Col>
             <Col xs={6} sm={6} md={6} lg={6}></Col>
-            <Col xs={8} sm={8} md={24} lg={24}>
+            <Col xs={24} sm={24} md={24} lg={24}>
                 <TestimonialSection />
             </Col>
           </Content>
@@ -102,9 +100,9 @@ class MainPageLayout extends Component {
               <Col xs={24} sm={24} md={4} lg={4}>&nbsp;</Col>
               <Col xs={24} sm={6} md={2} lg={2}><a href="#">Terms</a></Col>
               <Col xs={24} sm={6} md={2} lg={2}><a href="#">Privacy</a></Col>
-              <Col xs={24} sm={6} md={2} lg={2}><Icon type="mail" style={{ color: '#08c' }} />&nbsp;<a href="mailto:team@zoko.io">Contact Us</a></Col>
+              <Col xs={24} sm={6} md={3} lg={3}><Icon type="mail" style={{ color: '#08c' }} />&nbsp;<a href="mailto:team@zoko.io">Contact Us</a></Col>
               <Col xs={24} sm={6} md={2} lg={2}><a href="#blog">English</a></Col>
-              <Col xs={24} sm={24} md={4} lg={4}>&nbsp;</Col>
+              <Col xs={24} sm={24} md={3} lg={3}>&nbsp;</Col>
               <Col xs={24} sm={24} md={4} lg={4} style={{textAlign: 'right'}}>Social Media Section</Col>
           </Content>
 
