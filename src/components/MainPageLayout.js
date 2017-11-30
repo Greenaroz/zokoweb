@@ -1,6 +1,7 @@
 import '../style/site_master.css';
 import "../../node_modules/video-react/dist/video-react.css"; // import css
 import FeaturesCarousel from './FeaturesCarousel';
+import PricingCard from './PricingCard';
 
 
 import React, { Component } from 'react';
@@ -80,10 +81,10 @@ class MainPageLayout extends Component {
 
           <Content style={{height: '300px', verticalAlign: 'middle', padding: '64px'}}>
             <Col xs={24} sm={24} md={24} lg={24}><h1 className="zoko-header-center"><a id='pricing'></a>{zokoPlansHeader}</h1></Col>
-            <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
-            <Col offset={6} xs={12} sm={12} md={12} lg={12}><h3 className="zoko-stmt-center">{zokoPlansStmt}</h3></Col>
-            <Col xs={6} sm={6} md={6} lg={6}></Col>
-            <Col xs={24} sm={24} md={24} lg={24} style={{color: 'red'}}> ... Plan component build in progress ... </Col>
+            <Col xs={24} sm={24} md={24} lg={24}></Col>
+            <Col xs={8} sm={8} md={24} lg={24} style={{}}>
+                <PricingCard />
+            </Col>
           </Content>
       </div>
     );
