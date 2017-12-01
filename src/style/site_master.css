@@ -74,7 +74,7 @@
 
 @media (min-width: 768px) {
 	.zoko-main-content {
-		padding-top: 64px;
+		padding-top: 128px;
 	}
 }
 
@@ -138,18 +138,19 @@ h3.zoko-stmt-center {
 
 h4.zoko-stmt-small {
 	font-family: 'Rubik';
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 300;
-	font-style: italic;
+	font-style: normal;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 20px;
 	color: #5f5f69;
 }
 
 @media (min-width: 768px) {
 	h4.zoko-stmt-small {
 	text-align: left;
-	font-style: normal;
+	font-size: 14px;
+	padding-top: 10px;
 	}
 }
 

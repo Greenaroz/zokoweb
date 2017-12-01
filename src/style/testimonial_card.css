@@ -2,7 +2,7 @@
 
 .custom-image img {
   display: block;
-  height: 400px;
+  height: 280px;
 }
 
 .custom-card h3 {
@@ -26,4 +26,25 @@
   height: 150px;
   overflow: hidden;
   text-align: justify;
+}
+
+@media (min-width: 768px)
+{
+  .custom-image img {
+    height: 300px;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .custom-image img {
+    height: 350px;
+  }
+}
+
+@media (min-width: 1200px)
+{
+  .custom-image img {
+    height: 400px;
+  }
 }

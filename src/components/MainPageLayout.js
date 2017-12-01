@@ -8,9 +8,8 @@ import TestimonialSection from './TestimonialSection';
 import React, { Component } from 'react';
 import { Layout, Row, Col, Button, Input, Carousel, Icon} from 'antd';
 
+
 import logo_small from '../images/logo_small.png';
-
-
 import carousel_img1 from '../images/Carousel1.jpg';
 import carousel_img2 from '../images/Carousel2.jpg';
 import carousel_img3 from '../images/PromotePage.jpg';
@@ -107,12 +106,11 @@ class MainPageLayout extends Component {
               <Col xs={0} sm={0} md={4} lg={4}>&nbsp;</Col>
               <Col xs={24} sm={6} md={2} lg={2}><a href="#">Terms</a></Col>
               <Col xs={24} sm={6} md={2} lg={2}><a href="#">Privacy</a></Col>
-              <Col xs={24} sm={6} md={3} lg={3}><Icon type="mail" style={{ color: '#08c' }} />&nbsp;<a href="mailto:team@zoko.io">Contact Us</a></Col>
-              <Col xs={24} sm={6} md={2} lg={2}>English</Col>
+              <Col xs={24} sm={6} md={3} lg={3}><Icon type="mail" />&nbsp;<a href="mailto:team@zoko.io">Contact Us</a></Col>
+              <Col xs={24} sm={6} md={2} lg={2}><Icon type="global" spin/>&nbsp;English</Col>
               <Col xs={0} sm={0} md={6} lg={6}>&nbsp;</Col>
-              <Col xs={24} sm={24} md={4} lg={4}>Social Media Section</Col>
+              <Col xs={24} sm={24} md={4} lg={4}></Col>
           </Content>
-
       </div>
     );
   }

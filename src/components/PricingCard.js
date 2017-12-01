@@ -1,7 +1,8 @@
 import '../style/pricing_table.css';
 
 import React, { Component } from 'react';
-import { Button, Col, Row, Layout }  from 'antd';
+import { Button, Col, Row, Layout, Tooltip, Icon}  from 'antd';
+
 
 const { Content } = Layout;
 
@@ -31,8 +32,16 @@ class PricingCard extends Component {
               <ul>
                 <li><b><i>All features of PRO plan included</i></b></li>
                 <li>Zero Fee on Sales</li>
-                <li>Advanced Analytics</li>
-                <li>Autopilot Ad System</li>
+                <li>Advanced Analytics&nbsp;
+                  <Tooltip placement="right" title='Analytics details here ...'>
+                    <Icon type="info-circle"/>
+                  </Tooltip>
+                </li>
+                <li>Autopilot Ad System&nbsp;
+                  <Tooltip placement="right" title='Autopilot details here ...'>
+                    <Icon type="info-circle"/>
+                  </Tooltip>
+                </li>
                 <li>Unlimited Stores</li>
                 <li>Unlimited Agents</li>
                 <li>&nbsp;</li>
@@ -48,9 +57,17 @@ class PricingCard extends Component {
                 <li>Credit/Debit Card Payments - 6% Fee</li>
                 <li>PayTM - 6% Fee</li>
                 <li>1 - Click Broadcast</li>
-                <li>Auto Responder Bot</li>
+                <li>Auto Responder Bot&nbsp;
+                  <Tooltip placement="right" title='Auto Responder details here ...'>
+                    <Icon type="info-circle"/>
+                  </Tooltip>
+                </li>
                 <li>Auto Updater Bot</li>
-                <li>Bring Back Bot</li>
+                <li>Bring Back Bot&nbsp;
+                  <Tooltip placement="right" title='BBB details here ...'>
+                    <Icon type="info-circle"/>
+                  </Tooltip>
+                </li>
                 <li>3 Stores</li>
                 <li>9 Sales Agents</li>
                 <Button style={{width: '60%', height:'40px'}} type="primary">SIGN UP</Button>
