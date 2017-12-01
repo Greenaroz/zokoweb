@@ -5,21 +5,27 @@
 }
 
 #pricing-table .plan {
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 20px;
 
+	margin-bottom: 20px;
 	font: 12px 'Rubik', 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
 	text-shadow: 0 1px rgba(255,255,255,.8);
 	background: #fff;
 	border: 1px solid #eee;
 	color: #5f5f69;
+	width: 100%;
 	padding: 20px;
-  width: 30%;
-  min-width: 190px;
 	float: left;
 	position: relative;
 }
+
+@media (min-width: 768px) {
+
+	#pricing-table .plan {
+		width: 33%;
+		min-width: 200px;
+	}
+}
+
 
 #pricing-table #most-popular {
 	z-index: 2;

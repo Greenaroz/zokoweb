@@ -24,8 +24,8 @@ class PricingCard extends Component {
     return (
       <div>
       <Content>
-        <Col xs={6} sm={0} md={3} lg={3}></Col>
-        <Col xs={12} sm={24} md={18} lg={18}>
+        <Col xs={0} sm={0} md={0} lg={3}></Col>
+        <Col xs={24} sm={24} md={24} lg={18}>
         <div id="pricing-table" className="clear">
           <div className="plan">
               <h3>ENTERPRISE<span>₹9,999</span></h3>
@@ -46,7 +46,6 @@ class PricingCard extends Component {
                 <li>Unlimited Agents</li>
                 <li>&nbsp;</li>
                 <li>&nbsp;</li>
-                <li>&nbsp;</li>
                 <Button style={{width: '60%', height:'40px'}} type="primary">SIGN UP</Button>
               </ul>
           </div>
@@ -54,8 +53,11 @@ class PricingCard extends Component {
               <h3>PROFESSIONAL<span>₹4,999</span></h3>
               <ul>
                 <li>COD Payments - Free</li>
-                <li>Credit/Debit Card Payments - 6% Fee</li>
-                <li>PayTM - 6% Fee</li>
+                <li>Online Payments - 6% Fee&nbsp;
+                  <Tooltip placement="right" title='Online payments include credit card, debit cards, PayTM payments.'>
+                    <Icon type="info-circle"/>
+                  </Tooltip>
+                </li>
                 <li>1 - Click Broadcast</li>
                 <li>Auto Responder Bot&nbsp;
                   <Tooltip placement="right" title='Auto Responder details here ...'>
@@ -77,8 +79,7 @@ class PricingCard extends Component {
               <h3>SOLO<span>₹999</span></h3>
               <ul>
                 <li>Channels</li>
-                <li>9% fee - All sales</li>
-                <li>&nbsp;</li>
+                <li>All Sales - 9% Fee</li>
                 <li>&nbsp;</li>
                 <li>&nbsp;</li>
                 <li>&nbsp;</li>
@@ -89,7 +90,7 @@ class PricingCard extends Component {
               </ul>
           </div>
         </div></Col>
-        <Col xs={6} sm={0} md={3} lg={3}></Col>
+        <Col xs={0} sm={0} md={0} lg={3}></Col>
         <Col xs={24} sm={24} md={24} lg={24}>&nbsp;</Col>
         </Content>
       </div>
